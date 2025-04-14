@@ -9,8 +9,10 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: ['http://localhost:5173', 'https://ieee-frontend-topaz.vercel.app'],
+  credentials: true, 
 }));
+
 
 app.use(express.json());
 const DATA_FILE = "./attendance.json";
