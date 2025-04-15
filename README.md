@@ -10,7 +10,7 @@ Proper registration and Login system using JWT authentication .
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/sayanp607/IEEE-backend.git
-cd backend
+cd IEEE-backend
 ```
 
 ### **2️⃣ Install Dependencies**
